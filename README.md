@@ -28,6 +28,8 @@ Laravelでは、`.env` にアプリケーションの**環境によって変わ�
 
 ```
 
+-routes/api.phpにルートを記載すると、自動的にURLパスの頭に/apiが付くので、明示的な記載は不要。
+
 ## 動作確認
 
 1. 'http://localhost/api/hello'へGETリクエストを送信<br>
